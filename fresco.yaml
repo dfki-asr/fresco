@@ -1,0 +1,14 @@
+# https://github.com/kubernetes/contrib/tree/master/for-demos/proxy-to-service
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fresco
+spec:
+  containers:
+  - name: fresco
+    image: bali:5000/fresco
+    ports:
+    - name: tcp
+      protocol: TCP
+      containerPort: 80
