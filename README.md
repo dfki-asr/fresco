@@ -53,6 +53,11 @@ GET api/{importFormat}/{exportFormat}?uri={documentURI} HTTP/1.1
 ```
 where _importFormat_ is format of your RDF document hosted under _documentURI_ and _exportFormat_ is your desired RDF export syntax.
 
+You can choose from the following format options:
+```
+json-ld|n3|n-quads|n-triples|rdf-json|rdf-xml|trig|trix|turtle
+```
+
 ### Direct POST API
 HTTP POST requests can be made against fReSCO's direct POST API as follows
 ```
@@ -62,6 +67,11 @@ HOST: localhost:8081
 {your_RDF_goes_here}
 ```
 where _importFormat_ is format of {your_RDF_goes_HERE} and _exportFormat_ is your desired RDF export syntax.
+
+You can choose from the following format options:
+```
+json-ld|n3|n-quads|n-triples|rdf-json|rdf-xml|trig|trix|turtle
+```
 
 ## Contributing
 Contributions are very welcome.
