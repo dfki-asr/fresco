@@ -44,7 +44,7 @@
 				<version>2.2</version>
 				<configuration>
 					<server>fReSCO</server>
-					<port>80</port>
+					<port>8081</port>
 					<path>/</path>
 				</configuration>
 			</plugin>
