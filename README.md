@@ -51,7 +51,7 @@ HTTP GET requests can be made against fReSCO's form-style GET API as follows
 ```
 GET api/{importFormat}/{exportFormat}?uri={documentURI} HTTP/1.1
 ```
-where _importFormat_ is format of your RDF document hosted under _documentURI_ and _exportFormat_ is your desired RDF export syntax.
+where `importFormat` is format of your RDF document hosted under `documentURI` and `exportFormat` is your desired RDF export syntax.
 
 You can choose from the following format options:
 ```
@@ -66,7 +66,7 @@ HOST: localhost:8081
 
 {your_RDF_goes_here}
 ```
-where _importFormat_ is format of {your_RDF_goes_HERE} and _exportFormat_ is your desired RDF export syntax.
+where `importFormat` is format of `your_RDF_goes_HERE` and `exportFormat` is your desired RDF export syntax.
 
 You can choose from the following format options:
 ```
